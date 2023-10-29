@@ -385,8 +385,8 @@ html {
 
 .content-banner p{
     color: #c19a6b;
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 6rem;
+    margin-bottom: 5;
     font-weight: 500;
     font-family: apple;
 
@@ -835,8 +835,8 @@ button{
     background-color: #3b5998;
 }
 
-.youtube{
-    background-color: #c4302b;
+.whatsapp{
+    background-color: #118d40;
 }
 
 .instagram{
@@ -1117,6 +1117,3 @@ button{
     .menu-footer{
         grid-template-columns: 1fr;
     }
-    
-    
-}
