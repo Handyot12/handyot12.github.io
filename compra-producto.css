@@ -1,0 +1,362 @@
+@font-face {
+    font-family: tt-comons;
+    src: url(tt-comons.otf);
+}
+@font-face {
+    font-family: haton;
+    src: url(hatton1.otf);
+}
+body{
+    background-color: #f9f5f0;
+}
+.compra{
+    padding: 3rem 0;
+    display: flex;
+}
+
+.carrousel{
+    width: 35%;
+    height: 50rem;
+    margin-left: 10rem;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 50rem;
+    overflow: hidden;
+    border-radius: 5rem;
+
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 50rem;
+}
+.descripcion{
+    width: 50%;
+    margin-left: 5rem;
+    font-family: haton;
+    font-size: 2.2rem;
+}
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1{
+    background-image:  url("ABRIGOS Y CHAQUETAS/ABRIGO GAIA - AZUL COBALTO.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#itemCarrousel-2{
+    background-image: url("ABRIGOS Y CHAQUETAS/ABRIGO GAIA - BEIGE.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#itemCarrousel-3{
+    background-image: url("ABRIGOS Y CHAQUETAS/ABRIGO GAIA - PLOMO.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: white;
+}
+
+.container-info-product {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.container-price {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e4e4e4;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    margin-left: 5rem;
+}
+
+.container-price span {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.container-details-product {
+	padding: 30px 0;
+}
+
+.form-group {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 15px;
+}
+
+.form-group label {
+	width: 100px;
+	color: #222;
+	font-weight: 700;
+}
+
+.form-group select {
+	width: 300px;
+	border: none;
+	padding: 12px 15px;
+	background-color: #f7f7f7;
+	outline: none;
+	color: #666;
+}
+
+.btn-clean {
+	border: none;
+	background: none;
+	color: #666;
+	margin-left: 120px;
+	cursor: pointer;
+}
+
+.btn-clean:hover {
+	color: #1bbeb4;
+}
+
+.container-add-cart {
+	display: flex;
+	gap: 20px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.container-quantity {
+	position: relative;
+}
+
+.input-quantity {
+	background-color: #f7f7f7;
+	border: none;
+	padding: 10px;
+	width: 60px;
+	height: 100%;
+	color: #666;
+	font-weight: 500;
+	line-height: 0;
+}
+
+.input-quantity:focus {
+	outline: none;
+}
+
+.input-quantity::-webkit-inner-spin-button,
+.input-quantity::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.btn-increment-decrement {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 7px;
+	right: 7px;
+}
+
+.btn-increment-decrement i {
+	font-size: 11px;
+	color: #666;
+	cursor: pointer;
+}
+
+.fa-chevron-down:hover {
+	color: #1bbeb4;
+}
+
+.fa-chevron-up:hover {
+	color: #1bbeb4;
+}
+
+.btn-add-to-cart {
+	border: none;
+	background-color: #252525;
+	padding: 10px;
+	color: #f7f7f7;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.btn-add-to-cart:hover {
+	color: #1bbeb4;
+}
+
+.hidden {
+	display: none;
+}
+
+.container-description,
+.container-additional-information,
+.container-reviews {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid #e4e4e4;
+	padding: 10px 0;
+ 
+}
+
+.title-description,
+.title-additional-information,
+.title-reviews {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+    font-family: haton;
+    font-size: 2rem;
+}
+
+.title-description h4,
+.title-additional-information h4,
+.title-reviews h4 {
+	font-weight: 300;
+	color: #666;
+	font-size: 14px;
+    font-family: haton;
+    font-size: 2rem;
+}
+
+.text-additional-information ul{
+    margin-left: 3rem;
+    font-family: haton;
+}
+.text-description,
+.text-additional-information,
+.text-reviews {
+	font-size: 1.7rem;
+	color: #252525;
+	line-height: 22px;
+	margin-top: 25px;
+    font-family: haton;
+}
+
+.container-social {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+	align-items: center;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.container-social span {
+	font-weight: 300;
+	color: #252525;
+    font-size: 1.5rem;
+}
+
+.container-buttons-social {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+}
+
+.container-buttons-social a:link,
+.container-buttons-social a:visited {
+	color: #666;
+	font-size: 15px;
+}
+
+.container-buttons-social a:hover {
+	color: #1bbeb4;
+}
+
+.container-related-products h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.card-list-products {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 25px;
+}
+
+
+.card {
+	cursor: pointer;
+}
+
+.card-img {
+	background: transparent;
+	margin-bottom: 15px;
+}
+
+.card-img img {
+	height: 400px;
+	object-fit: cover;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.info-card {
+	display: flex;
+	justify-content: space-between;
+}
+
+.text-product {
+	color: #252525;
+	font-weight: 300;
+	line-height: 1.4;
+}
+
+.text-product h3{
+    color: inherit;
+    font-weight: inherit;
+    font-size: 15px;
+}
+
+.text-product h3:hover{
+    color: #1bbeb4;
+}
+
+.text-product p{
+    color: #666;
+    font-size: 13px;
+}
+
+.text-product p:hover{
+    color: #1bbeb4;
+}

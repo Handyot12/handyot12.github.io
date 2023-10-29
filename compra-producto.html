@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra Ya!</title>
+    <link rel="stylesheet" href="Lali.css">
+    <link rel="stylesheet" href="compra-producto.css">  
+</head>
+<body> 
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="container-logo">
+                    <h1 class="logo" >Eres la protagonista de tu propia pasarela</h1>                    
+                </div>
+            </div>
+               </div>
+              
+               <div class="container-logo2">
+
+                <div class="customer-support">
+                    <form class="search-form">
+                        <input type="search" placeholder="Buscar...">
+                        <button class="btn-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+
+                </div>                
+                <h1 class="logo" >Vanity</h1> 
+                <div class="container-user">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="content-shopping-cart">
+                   
+                    <div class="container-icon">
+                        <div class="container-cart-icon">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                            </div>
+                            <div class="count-products">
+                                <span id="contador-productos">0</span>
+                            </div>
+                        </div> 
+                        <div class="container-cart-products hidden-cart">
+                            <div class="row-product hidden">
+                                <div class="cart-product">
+                                    <div class="info-cart-product">
+                                        <span class="cantidad-producto-carrito">0</span>
+                                        <p class="titulo-producto-carrito">El carrito está vacío</p>
+                                        <p class="precio-producto-carrito">$0</p>
+                                        <span class="descuento">$0</span>
+                                    </div>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke="currentColor"
+                                        class="icon-close"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            d="M6 18L18 6M6 6l12 12"
+                                        />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="cart-total hidden">
+                                <h3>Total:</h3>
+                                <span class="total-pagar">$200</span>
+                            </div>
+                            <p class="cart-empty">El carrito está vacío</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+             
+        <div class="container-navbar">
+
+            <nav class="navbar1 container">
+                <div class="menu-toggle">
+                    <i class="fa-solid fa-x"></i>          
+                     <i class="fa-solid fa-bars"></i>
+            </div>
+            
+            <ul class="menu">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Quienes somos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Nuevo</a></li>
+                <li class="nav-item"><a class="nav-link" href="#producto">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Ofertas</a></li>
+                <li class="nav-item"><a class="nav-link" href="blogs.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Ayuda</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Opiniones</a></li>                                               
+            </ul>
+        </nav>
+        </div>    
+    </header>
+
+    <main>
+    <section class="compra">
+        <div class="carrousel">
+            <div class="conteCarrousel">
+                <div class="itemCarrousel" id="itemCarrousel-1">
+                    <div class="itemCarrouselTarjeta"></div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-3">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-2">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-2">
+                    <div class="itemCarrouselTarjeta"></div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-1">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-3">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-3">
+                    <div class="itemCarrouselTarjeta"></div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-2">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-1">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="conteCarrouselController">
+                <a href="#itemCarrousel-1">•</a>
+                <a href="#itemCarrousel-2">•</a>
+                <a href="#itemCarrousel-3">•</a>
+            </div>
+        </div>
+
+        <div class="container-info-product">
+            <div class="container-price">
+                <span>S/43.50 <span class="descuento">S/50.00</span></span>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+        <div class="descripcion">
+        <div class="container-details-product">
+            <div class="form-group">
+                <label for="colour">Color</label>
+                <select name="colour" id="colour">
+                    <option disabled selected value="">
+                        Escoge una opción
+                    </option>
+                    <option value="rojo"><a href="#itemCarrousel-1">Azul cobalto</a></option>
+                    <option value="blanco">Plomo</option>
+                    <option value="beige">Beige</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="size">Talla</label>
+                <select name="size" id="size">
+                    <option disabled selected value="">
+                        Escoge una opción
+                    </option>
+                    <option value="40">S</option>
+                    <option value="42">M</option>
+ 
+                </select>
+            </div>
+            <button class="btn-clean">Limpiar</button>
+        </div>
+
+        <div class="container-add-cart">
+            <div class="container-quantity">
+                <input
+                    type="number"
+                    placeholder="1"
+                    value="1"
+                    min="1"
+                    class="input-quantity"
+                />
+                <div class="btn-increment-decrement">
+                    <i class="fa-solid fa-chevron-up" id="increment"></i>
+                    <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                </div>
+            </div>
+            <a href="proceso-pago.html">
+            <button class="btn-add-to-cart">
+                <i class="fa-solid fa-plus"></i>
+                Comprar
+            </button>
+        </a>
+        </div>
+
+        <div class="container-description">
+            <div class="title-description">
+                <h4>Descripción</h4>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="text-description">
+                <p>
+                    Este abrigo no solo es abrigador, también es súper cómodo. Con su diseño versátil, podrás lucirlo con cualquier look
+                     que desees. Con un cinturón hermoso que te ayudará a usarlo de varias maneras, dos bolsillos funcionales delanteros 
+                     y con doble forro para que te sientas abrigadita a donde vayas.
+                </p>
+            </div>
+        </div>
+
+        <div class="container-additional-information">
+            <div class="title-additional-information">
+                <h4>Información adicional</h4>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="text-additional-information hidden">
+                <p><strong>Instrucciones del cuidado:</strong></p>
+                <ul>
+                    <li>Se recomienda lavar con agua fría o con los programas para prendas delicadas en lavadora</li>
+                    <li>No usar lejía / blanqueador</li>
+                    <li>Centrifugado corto</li>
+                </ul>
+                <p><strong>Composición:</strong></p>
+                <ul>
+                        <li>Paño</li> 
+                    </ul>
+            </div>
+        </div>
+
+        <div class="container-reviews">
+            <div class="title-reviews">
+                <h4>Reseñas</h4>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="text-reviews hidden">
+                <p>-----------</p>
+            </div>
+        </div>
+
+        <div class="container-social">
+            <span>Compartir</span>
+            <div class="container-buttons-social">
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </section>
+</main>
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Informacion de contacto</p>
+                    <ul>
+                        <li>Telefono:+51 999 999 999</li>
+                        <li>Fax: 5555 5555 </li>
+                        <li>Email: vanity@soporte.com</li>
+
+                    </ul>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><span class="facebook"><i class="fa-brands fa-facebook"></i> </span></a>
+                        <a href="https://www.instagram.com/vanityperu_/" target="_blank"><span class="instagram"><i class="fa-brands fa-instagram"></i></span></a>
+                        <a href="https://www.youtube.com/" target="_blank"><span class="youtube"><i class="fa-brands fa-whatsapp"></i></span></a>
+                        <a href="https://www.tiktok.com/es/" target="_blank"><span class="tiktok"><i class="fa-brands fa-tiktok"></i></span></a>
+                        <a href="https://outlook.live.com/mail/about/index_es-mx.html" target="_blank"><span class="correo"><i class="fa-solid fa-envelope"></i></span></a>
+                    </div>
+                </div>
+                <div class="information">
+                    <p class="title-footer">Informacion</p>
+                    <ul>
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Informacion de delivery</a></li>
+                        <li><a href="#">Politicas y privacidad</a></li>
+                        <li><a href="#">Terminos y condiciones</a></li>
+                        <li><a href="#">Contactanos</a></li>
+                    </ul>
+                </div>
+                <div class="my-account">
+                    <p class="title-footer">Mi cuenta</p>
+                    <ul>
+                        <li><a href="#">Mi cuenta</a></li>
+                        <li><a href="#">Historial de ordenes</a></li>
+                        <li><a href="#">Lista de deseos</a></li>
+                        <li><a href="#">Boletin</a></li>
+                        <li><a href="#">Reembolsos</a></li>
+                    </ul>
+                </div>
+                <div class="newsletter">
+                    <p class="title-footer">Boletin informativo</p>
+                    <div class="content">
+                        <p>
+                            Suscribete a nuestros boletines ahora y mantente al dia
+                            con nuevas colecciones y ofertas exclusivas
+                        </p>
+                        <input type="email" placeholder="Ingresa el correo aqui...">
+                        <button>Suscribete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Desarrollado por R.Medina &copy; 2023</p>
+            
+            <img src="IMG/metodos-pago.png" alt="pagos">
+        </div>
+        </div>  
+    </footer>
+    <script src="https://kit.fontawesome.com/b3e5ab7223.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        const selectElement = function(element) {
+return document.querySelector(element);
+}
+
+
+let menuToggle = selectElement('.menu-toggle');
+let body = selectElement('body');
+
+menuToggle.addEventListener('click', function(){
+body.classList.toggle('open');
+})
+
+</script>
+<script src="compra-producto.js"></script>
+<script src="carrito.js"></script>
+    
+</body>
+</html>

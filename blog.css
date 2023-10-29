@@ -1,0 +1,212 @@
+
+@font-face {
+    font-family: haton;
+    src: url(hatton1.otf);
+}
+@font-face {
+    font-family: tt-comons;
+    src: url(tt-comons.otf);
+}
+@font-face {
+    font-family: beatrix;
+    src: url(Beatrix.ttf);
+}
+@font-face {
+    font-family: apple;
+    src: url(Apple\ Juice.ttf);
+}
+
+.separacion{
+    background-color: #c19a6b;
+    padding: 1rem 0;
+}
+.separacion h1{
+    justify-content: center;
+    text-align: center;
+    font-family: beatrix;
+    text-transform: uppercase;    
+    font-size: 3rem;
+    letter-spacing: 1rem;
+
+}
+.gallery{
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,30rem);
+    gap: 1.5rem;
+    margin: 2rem ;
+    margin-bottom: 3rem;
+    align-items: center;
+}
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5rem;
+    
+}
+
+.gallery-img-3{
+    grid-column: 2/4;
+    grid-row: 1/1;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: haton;
+    font-style: italic;
+}
+
+.gallery-img-3 p{
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery2{
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,30rem);
+    gap: 1.5rem;
+    margin: 2rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder-glow{
+    color: #c19a6b;
+}
+
+.gallery2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.gallery-img-5{
+    grid-column: 2/3;
+    grid-row: 1/1;
+    
+    border-radius: 2.5rem;
+   
+}
+
+.gallery-img-4 p{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: haton;
+    font-style: italic;
+}
+
+
+
+.gallery3{
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,30rem);
+    gap: 1.5rem;
+    margin: 2rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.gallery-img-6{
+    grid-column: 1/2;
+    grid-row: 1/3;
+   
+}
+.gallery-img-7{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    border-radius: 5rem;
+}
+
+.gallery-img-6 p{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-family: haton;
+    font-style: italic;
+}
+.gallery-img-6 ul li{
+    text-align: justify;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-family: haton;
+    font-style: italic;
+}
+
+
+
+
+.gallery4{
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,30rem);
+    gap: 1.5rem;
+    margin: 2rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.gallery-img-8{
+    grid-column: 2/2;
+    grid-row: 1/3;
+   
+}
+.gallery-img-9{
+    grid-column: 12/13;
+    grid-row: 1/3;
+    border-radius: 5rem;
+}
+
+.gallery-img-8 p{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-family: haton;
+    font-style: italic;
+}
+.gallery-img-8 ul li{
+    text-align: justify;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-family: haton;
+    font-style: italic;
+}
+
+
+@media (max-width:468px){ 
+
+    html{
+        font-size: 36.5%;
+    }
+}
